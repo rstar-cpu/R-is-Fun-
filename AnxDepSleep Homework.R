@@ -8,7 +8,7 @@
 
 
 # ------------------------------------------------------------
-# Task: Import and inspect data
+# Task: Assign the dataset to an object called "mydata"
 # ------------------------------------------------------------
 
 

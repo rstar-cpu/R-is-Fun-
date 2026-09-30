@@ -7,7 +7,7 @@
 # ------------------------------------------------------------
 
 # ------------------------------------------------------------
-# Task: Import and inspect data
+# Task: Assign the dataset to an object called "mydata"
 # ------------------------------------------------------------
 
 mydata <- simulated_PHQ9_GAD7_sleep_data
