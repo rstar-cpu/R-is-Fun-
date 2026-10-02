@@ -91,26 +91,27 @@ hist(mydata$sleep_hours)
 
 # ------------------------------------------------------------
 # Task: Compute Spearman correlations between each pair
+# use the cor.test function
 # ------------------------------------------------------------
 
-?cor
+?cor.test
 
 # Correlation between PHQ-9 and sleep
-cor(
+cor.test(
   mydata$phq9_total,
   mydata$sleep_hours,
   method = "spearman"
 )
 
 # Correlation between GAD-7 and sleep
-cor(
+cor.test(
   mydata$gad7_total,
   mydata$sleep_hours,
   method = "spearman"
 )
 
 # Correlation between PHQ-9 and GAD-7
-cor(
+cor.test(
   mydata$phq9_total,
   mydata$gad7_total,
   method = "spearman"
