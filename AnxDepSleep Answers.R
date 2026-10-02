@@ -62,13 +62,18 @@ mydata$gad7_total <- rowSums(
 
 library(psych)
 
+# Row x Column convention
+# In mydata[rows, columns], the space before the comma means:
+# "Use all rows."
+# c() combines the column names we want to select.
+
 alpha(
   mydata[ , c("gad1", "gad2", "gad3", "gad4", "gad5", 
               "gad6", "gad7")]
 )
 
 alpha(
-  mydata[, c("phq1", "phq2", "phq3", "phq4", "phq5",
+  mydata[ , c("phq1", "phq2", "phq3", "phq4", "phq5",
              "phq6", "phq7", "phq8", "phq9")]
 )
 
